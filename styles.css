@@ -18,6 +18,14 @@
     color: blue;
 }
 
+#conteneur-2 /*bouton recherché*/
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
 footer /*footer*/
 {
     display:flex;
