@@ -28,14 +28,40 @@
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     font-size: 17px;
+    align-items:center;
+
 }
 
-.element# /*les filtres*/
+.element4 /*les filtres*/
 {
-    margin: 60px;
+    padding: 30px;
+    
 }
+
+.element5 /*les filtres*/
+{
+    padding: 30px;
+    
+}
+
+.element6 /*les filtres*/
+{
+    padding: 30px;
+}
+
+.element7 /*les filtres*/
+{
+    padding: 30px;
+}
+
+.element8 /*les filtres*/
+{
+    padding: 30px;
+}
+
+
+
 
 #hebergement /*section*/
 {
