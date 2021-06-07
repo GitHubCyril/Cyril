@@ -22,22 +22,19 @@
 {
     display: flex;
     flex-wrap: wrap;
-    
-
 }
 
-footer /*footer*/
+#conteneur-3 /*les filtres*/
 {
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: flex-start;
+    font-size: 17px;
 }
 
-.element /*footer*/
+.element# /*les filtres*/
 {
-    width: 350px;
-    text-align: justify;
-    padding: 10px;
+    margin: 60px;
 }
 
 #hebergement /*section*/
@@ -63,6 +60,23 @@ section /*section*/
     flex-wrap: wrap;
     
 }
+
+
+footer /*footer*/
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.element /*footer*/
+{
+    width: 350px;
+    text-align: justify;
+    padding: 10px;
+}
+
+
 
 
 
