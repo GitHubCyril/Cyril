@@ -12,11 +12,51 @@
     list-style-type: none;
 }
 
-#conteneur-recherche
+#conteneur-recherche /*recherche*/
 {
-    border: 1px solid black;
+    
     padding: 15px;
     
+}
+
+.filtres /*filtres*/
+{
+    list-style-type: none;
+}
+
+.Hebergements /*hébergement à Marseille*/
+{
+    border: 3px solid black;
+}
+
+.cannebière /*hébergement à Marseille*/
+{
+    border: 1px solid black;
+}
+
+.port /*hébergement à Marseille*/
+{
+
+}
+
+.mouettes /*hébergement à Marseille*/
+{
+
+}
+
+.mer /*hébergement à Marseille*/
+{
+
+}
+
+.panier /*hébergement à Marseille*/
+{
+
+}
+
+.amina /*hébergement à Marseille*/
+{
+
 }
 
 
