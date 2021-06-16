@@ -26,12 +26,15 @@
 
 .Hebergements /*hébergement à Marseille*/
 {
-    border: 3px solid black;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .cannebière /*hébergement à Marseille*/
 {
-    border: 1px solid black;
+    
 }
 
 .port /*hébergement à Marseille*/
