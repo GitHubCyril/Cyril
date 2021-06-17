@@ -24,11 +24,19 @@
     list-style-type: none;
 }
 
+.hebergements
+{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: silver;
+    width: 50%;
+}
 
 
 
 
-.Hebergements /*hébergement à Marseille*/
+.Hebergements1 /*hébergement à Marseille*/
 {
     
     display: flex;
@@ -38,32 +46,50 @@
 
 .cannebiere /*hébergement à Marseille*/
 {
-    
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .port /*hébergement à Marseille*/
 {
-
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .mouettes /*hébergement à Marseille*/
 {
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
+.hebergements2
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .mer /*hébergement à Marseille*/
 {
-
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .panier /*hébergement à Marseille*/
 {
-
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .amina /*hébergement à Marseille*/
 {
-
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 
