@@ -49,6 +49,7 @@
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .port /*hébergement à Marseille*/
@@ -56,6 +57,7 @@
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .mouettes /*hébergement à Marseille*/
@@ -63,6 +65,7 @@
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .hebergements2
@@ -76,6 +79,7 @@
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .panier /*hébergement à Marseille*/
@@ -83,6 +87,7 @@
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .amina /*hébergement à Marseille*/
@@ -90,8 +95,44 @@
     margin: 15px;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
+.populaires
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    background-color: silver;
+    flex-wrap: wrap;
+}
+
+.soleil
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    margin: 15px;
+}
+
+.coeur
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    margin: 15px;
+}
+
+.bleu
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    background-color: white;
+    margin: 15px;
+}
 
 
 
