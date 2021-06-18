@@ -8,36 +8,37 @@
 
 
     
- <body>       
-     <header><!--header-->    
-             <ul>
+ <body>
+     <div id="bloc_page"> <!--début bloc page-->
+        <header><!--header-->    
+            <ul>
 
-                 <div class="conteneur1">
-                     <li class="elements"><a href="#hebergements">Hébergements</a></li>
-                     <li class="elements"><a href="#activites" >Activités</a></li>
-                     <li class="elements"><a href="page2.html">S'Inscrire</a></li>
-                 </div>
-             </ul>
-         <div>
-            <img src="images/logo/Reservia.png" alt="icone reservia">
-         </div>
-     </header> <!--fin header-->
+                <div class="conteneur1">
+                    <li class="elements"><a href="#hebergements">Hébergements</a></li>
+                    <li class="elements"><a href="#activites" >Activités</a></li>
+                    <li class="elements"><a href="page2.html">S'Inscrire</a></li>
+                </div>
+            </ul>
+        <div>
+           <img src="images/logo/Reservia.png" alt="icone reservia">
+        </div>
+    </header> <!--fin header-->
 
-         <div class="conteneur-titres"> <!--titre-->
-           
-        <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
-        <p>En plein centre ville ou en pleine nature</p>
-        
-               
-     </div> <!--fin titre-->
+        <div class="conteneur-titres"> <!--titre-->
+          
+       <H1>Trouvez votre hébergement pour des vacances de rêve</H1>
+       <p>En plein centre ville ou en pleine nature</p>
+       
+              
+    </div> <!--fin titre-->
 
-    <div id="conteneur-recherche"> <!--recherche-->
-        <form method="POST" action="traitemant.php">
-            <img src="images/logo/map-marker-alt-solid.png" alt="icone">  
-            <input type="text" placeholder="Marseille, France">
-            <input type="text" value="Rechercher">         
-        </form>
-    </div> <!--fin recherche-->
+   <div id="conteneur-recherche"> <!--recherche-->
+       <form method="POST" action="traitemant.php">
+           <img src="images/logo/map-marker-alt-solid.png" alt="icone">  
+           <input type="text" placeholder="Marseille, France">
+           <input type="text" value="Rechercher">         
+       </form>
+   </div> <!--fin recherche-->
 
     <section class="conteneur-filtres"> <!--les filtres-->
 
@@ -59,7 +60,7 @@
     
     <section class="hebergements"> <!--hébergement-->
          <a href="page.html">
-                 <h2 id="hebergement">Hébergements à Marseille</h2> <!--Hébergements à Marseille-->
+                 <h2>Hébergements à Marseille</h2> <!--Hébergements à Marseille-->
          <div class="Hebergements1"> <!--debut des 3 premiers-->
              <article class="cannebiere">            
                  <img src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo d'une chambre de l'hauberge la Cannebiere"/>
@@ -161,54 +162,57 @@
          </section> <!--fin hébergements à Marseille-->
          
 
-         <section><!--Les plus populaires-->
+         <section class="populaire"><!--Les plus populaires-->
+             <a href="page.html">
+                 <h2>Les plus populaires</h2>
+                     <article class="soleil">
+                             <img src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.png" alt="Photo d'une chambre chez le soleil du matin">
+                             <h4>Hotel chez le soleil du matin</h4>
+                             <p>à partir de 128€</p>
+                         <figure>
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                         </figure>
 
-            <h2>Les plus populaires</h2>
-            <article>
-                    <img src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.png" alt="Photo d'une chambre chez le soleil du matin">
+                     </article>
+             </a>
 
-                    <h4>Hotel chez le soleil du matin</h4>
-                    Nuit à partir de 128€
-            <figure>
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-            </figure>
+             <a href="page.html"></a>
+                     <article class="coeur">
+                             <img src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.png" alt="Photo d'une chambre d'hotes">
+                             <h4>Hotel au coeur de l'eau chambres d'hotes</h4>
+                             <p>à partir de 71€</p> 
+                         <figure>
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                         </figure>
 
-            </article>
+                     </article>
+             </a>
+             <a href="page.html"></a>
+                     <article class="bleu">
+                         <img src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo d'une chambre chez tout bleu et blanc">
+                         <h4>Hotel tout bleu et blanc</h4>
+                         <p>à partir de 68€</p> 
+                         <figure>
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                             <img src="images/logo/etoile.png" alt="etoile" />
+                         </figure> 
 
+                     </article>
+             </a>
+         </section>
 
-            <article>
-                    <img src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.png" alt="Photo d'une chambre d'hotes">
-                    <h4>Hotel au coeur de l'eau chambres d'hotes</h4>
-                    Nuit à partir de 71€
-            <figure>
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-            </figure>
-
-            </article>
-
-            <article>
-                    <img src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Photo d'une chambre chez tout bleu et blanc">
-                        <h4>Hotel tout bleu et blanc</h4>
-                        Nuit à partir de 68€
-            <figure>
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-                    <img src="images/logo/etoile.png" alt="etoile" />
-            </figure> 
-
-            </article>
-
-        </section> <!--FIN Les plus populaires-->
+         </section> <!--FIN Les plus populaires-->
 
     </section> <!--fin hebergements-->
 
@@ -256,6 +260,6 @@
             <div class="element">Nous contacter</div>
         </div>
     </footer><!--Fin Footer-->
-   
+</div> <!--fin bloc page-->
 </body>
 </html>
