@@ -141,3 +141,73 @@
 
 
 
+#principal /*Activités à Marseille*/
+{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.activités
+{
+    display: flex;
+    
+}
+
+.port2 /*Activités à Marseille*/
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    
+}
+
+.fort /*Activités à Marseille*/
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+    
+}
+
+.iles /*Activités à Marseille*/
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+}
+
+.paysage /*Activités à Marseille*/
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+}
+
+.eglise /*Activités à Marseille*/
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+}
+
+.parc /*Activités à Marseille*/
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
