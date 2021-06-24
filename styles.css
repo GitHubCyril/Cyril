@@ -98,7 +98,7 @@
     background-color: white;
 }
 
-.populaires
+.populaires /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -107,7 +107,7 @@
     flex-wrap: wrap;
 }
 
-.soleil
+.soleil /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -116,7 +116,7 @@
     margin: 15px;
 }
 
-.coeur
+.coeur /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -125,7 +125,7 @@
     margin: 15px;
 }
 
-.bleu
+.bleu /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
