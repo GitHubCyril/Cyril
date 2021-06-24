@@ -201,15 +201,28 @@
 footer /*footer*/
 {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    
+    align-items: baseline;
+    background-color: grey;
 }
 
-
+.footer1
 {
+    padding: 50px;
     
 }
+
+.lou
+{
+    margin: 15px;
+    
+}
+
+
+
+
+
 
 
 
