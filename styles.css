@@ -33,8 +33,11 @@
     width: 50%;
 }
 
-
-
+.conteneur_hebergements
+{
+    display: flex;
+    flex-direction: row;
+}
 
 .Hebergements1 /*hébergement à Marseille*/
 {
@@ -102,7 +105,8 @@
 {
     border: 1px solid black;
     border-radius: 10px;
-    width: 30%;
+    padding: 20px;
+    margin: 20px;
     background-color: silver;
     flex-wrap: wrap;
 }
@@ -111,7 +115,7 @@
 {
     border: 1px solid black;
     border-radius: 10px;
-    width: 50%;
+    
     background-color: white;
     margin: 15px;
 }
@@ -120,7 +124,7 @@
 {
     border: 1px solid black;
     border-radius: 10px;
-    width: 50%;
+
     background-color: white;
     margin: 15px;
 }
@@ -129,7 +133,7 @@
 {
     border: 1px solid black;
     border-radius: 10px;
-    width: 50%;
+    
     background-color: white;
     margin: 15px;
 }
@@ -194,8 +198,18 @@
     margin: 10px;
 }
 
+footer /*footer*/
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 
+{
+    
+}
 
 
 
