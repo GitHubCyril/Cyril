@@ -14,9 +14,7 @@
 
 #conteneur-recherche /*recherche*/
 {
-    
     padding: 15px;
-    
 }
 
 .filtres /*filtres*/
@@ -24,27 +22,30 @@
     list-style-type: none;
 }
 
-.hebergements
+.hebergements /*hébergement à Marseille*/
 {
-    flex-wrap: wrap;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: silver;
-    width: 50%;
+    
 }
 
-
-
-
-.Hebergements1 /*hébergement à Marseille*/
+.conteneur2 /*hébergement à Marseille*/
 {
-    
     display: flex;
-    flex-wrap: wrap;
-    
+}
+
+.conteneur3 /*hébergement à Marseille*/
+{
+    display: flex;
 }
 
 .cannebiere /*hébergement à Marseille*/
+{
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.mer /*hébergement à Marseille*/
 {
     margin: 15px;
     border: 1px solid black;
@@ -68,20 +69,6 @@
     background-color: white;
 }
 
-.hebergements2
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.mer /*hébergement à Marseille*/
-{
-    margin: 15px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: white;
-}
-
 .panier /*hébergement à Marseille*/
 {
     margin: 15px;
@@ -98,7 +85,12 @@
     background-color: white;
 }
 
-.populaires
+.conteneur4  /*les populaires*/
+{
+    
+}
+
+.populaires /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -107,7 +99,7 @@
     flex-wrap: wrap;
 }
 
-.soleil
+.soleil /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -116,7 +108,7 @@
     margin: 15px;
 }
 
-.coeur
+.coeur /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -125,7 +117,7 @@
     margin: 15px;
 }
 
-.bleu
+.bleu /*les populaires*/
 {
     border: 1px solid black;
     border-radius: 10px;
@@ -133,10 +125,6 @@
     background-color: white;
     margin: 15px;
 }
-
-
-
-
 
 .activités /*Activités à Marseille*/
 {
