@@ -202,22 +202,38 @@ footer /*footer*/
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: baseline;
     background-color: grey;
+    border: 1px solid black;
+   
+    
 }
 
 .footer1
 {
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
     
+    border: 1px solid black;
 }
 
-.lou
+.footer2
 {
-    margin: 15px;
-    
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    border: 1px solid black;
 }
+
+.footer3
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    border: 1px solid black;
+}
+
 
 
 
