@@ -29,7 +29,7 @@ body
     list-style-type: none;
 }
 
-.hebergements
+.hebergements /*hébergement à Marseille*/
 {
     flex-wrap: wrap;
     border: 1px solid black;
@@ -38,10 +38,16 @@ body
     width: 50%;
 }
 
-.conteneur_hebergements
+.conteneur_hebergements /*hébergement à Marseille*/
 {
     display: flex;
     flex-direction: row;
+}
+
+.arrondi1 /*hébergement à Marseille*/
+{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .Hebergements1 /*hébergement à Marseille*/
@@ -76,7 +82,7 @@ body
     background-color: white;
 }
 
-.hebergements2
+.hebergements2 /*hébergement à Marseille*/
 {
     display: flex;
     flex-wrap: wrap;
@@ -106,7 +112,7 @@ body
     background-color: white;
 }
 
-.arrondi2
+.arrondi2 /*les populaires*/
 {
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
@@ -141,7 +147,7 @@ body
 }
 
 
-.arrondi3
+.arrondi3 /*Activités à Marseille*/
 {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
@@ -214,7 +220,7 @@ footer /*footer*/
     height: 230px;
 }
 
-.footer1
+.footer1 /*footer*/
 {
     
     display: flex;
@@ -223,7 +229,7 @@ footer /*footer*/
     margin: 50px
 }
 
-.footer2
+.footer2 /*footer*/
 {
     display: flex;
     flex-direction: column;
@@ -231,7 +237,7 @@ footer /*footer*/
     
 }
 
-.footer3
+.footer3 /*footer*/
 {
     display: flex;
     flex-direction: column;
@@ -239,7 +245,8 @@ footer /*footer*/
    
 }
 
-a{
+a /*general*/
+{
     color: black;
 }
 
