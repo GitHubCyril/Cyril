@@ -50,6 +50,11 @@ body
     width: 250px;
 }
 
+.arrondi2
+{
+    width: 200px;
+}
+
 .cannebiere /*hébergement à Marseille*/
 {
     margin: 20px;
@@ -83,7 +88,7 @@ body
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
-    width: 250px;
+    width: 250px;px;
 }
 
 .panier /*hébergement à Marseille*/
