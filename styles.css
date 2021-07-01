@@ -29,7 +29,6 @@ body
 
 .conteneur_hebergements /*hébergement à Marseille*/
 {
-    
     padding: 20px;
     border: 8px solid black;
 }
@@ -62,7 +61,7 @@ body
 .cannebiere /*hébergement à Marseille*/
 {
     margin: 20px;
-    
+    padding: 8px;
     border-radius: 10px;
     background-color: white;
     width: 250px;
@@ -72,7 +71,7 @@ body
 .port /*hébergement à Marseille*/
 {
     margin: 20px;
-    
+    padding: 8px;
     border-radius: 10px;
     background-color: white;
     width: 250px;
@@ -81,7 +80,7 @@ body
 .mouettes /*hébergement à Marseille*/
 {
     margin: 20px;
-    
+    padding: 8px;
     border-radius: 10px;
     background-color: white;
     width: 250px;
@@ -90,7 +89,7 @@ body
 .mer /*hébergement à Marseille*/
 {
     margin: 20px;
-    
+    padding: 8px;
     border-radius: 10px;
     background-color: white;
     width: 250px;px;
@@ -99,7 +98,7 @@ body
 .panier /*hébergement à Marseille*/
 {
     margin: 20px;
-    
+    padding: 8px;
     border-radius: 10px;
     background-color: white;
     width: 250px;
@@ -108,7 +107,7 @@ body
 .amina /*hébergement à Marseille*/
 {
     margin: 20px;
-    
+    padding: 8px;
     border-radius: 10px;
     background-color: white;
     width: 250px;
