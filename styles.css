@@ -31,17 +31,10 @@ body
 {
     padding: 20px;
     border: 8px solid black;
-}
-
-.hebergements /*hébergement à Marseille*/
-{
+    background-color: blue;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: red;
-    width: 1100px;
-    border: 5px solid black;
+    
     
 }
 
@@ -55,7 +48,16 @@ body
 
 .arrondi2
 {
-    width: 200px;
+    width: 250px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.arrondi3
+{
+    width: 250px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 
 .cannebiere /*hébergement à Marseille*/
@@ -92,7 +94,7 @@ body
     padding: 8px;
     border-radius: 10px;
     background-color: white;
-    width: 250px;px;
+    width: 250px;
 }
 
 .panier /*hébergement à Marseille*/
@@ -113,52 +115,41 @@ body
     width: 250px;
 }
 
-.arrondi2 /*les populaires*/
-{
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-}
-
-.arrondi3
-{
-    width: 150px;
-}
-
 .populaires /*les populaires*/
 {
-    
+    display: flex;
     padding: 20px;
     margin: 20px;
-    background-color: #f4f4f4;
+    background-color: green;
     flex-wrap: wrap;
     border: 5px solid black;
+    width: 280px;
+    
 }
 
 .soleil /*les populaires*/
 {
     background-color: white;
     margin: 15px;
+    width: 250px;
+    border-top-left-radius: 10%;
 }
 
 .coeur /*les populaires*/
 {
     background-color: white;
     margin: 15px;
+    width: 250px;
+    border-top-left-radius: 10%;
 }
 
 .bleu /*les populaires*/
 {
     background-color: white;
     margin: 15px;
-}
-
-
-.arrondi3 /*Activités à Marseille*/
-{
+    width: 250px;
     border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
 }
-
 
 .activités /*Activités à Marseille*/
 {
