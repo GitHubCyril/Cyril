@@ -36,8 +36,6 @@ body
     flex-wrap: wrap;
     width: 930px;
     height: 1200px;
-    
-    
 }
 
 .arrondi1 /*hébergement à Marseille*/
@@ -45,21 +43,26 @@ body
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     width: 250px;
-    
 }
 
-.arrondi2
+.arrondi2 /*Hébergements à Marseille*/
 {
     width: 250px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
 }
 
-.arrondi3
+.arrondi3 /*les populaires*/
 {
     width: 250px;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
+}
+
+.arrondi4 /*Activités à Marseille*/
+{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .cannebiere /*hébergement à Marseille*/
@@ -165,17 +168,18 @@ body
 {
    
     
-    width: 90%;
-    margin: 10px;
+    width: 350px;
+    margin: 1px;
     border: 1px solid red;
+    
 }
 
 .fort /*Activités à Marseille*/
 {
    
     
-    width: 100%;
-    margin: 10px;
+    width: 400px;
+    margin: 1px;
     border: 1px solid red;
 }
 
@@ -183,32 +187,32 @@ body
 {
     
     border: 1px solid red;
-    width: 100%;
-    margin: 10px;
+    width: 400;
+    margin: 1px;
 }
 
 .paysage /*Activités à Marseille*/
 {
     
     border: 1px solid red;
-    width: 90%;
-    margin: 10px;
+    width: 350px;
+    margin: 1px;
 }
 
 .eglise /*Activités à Marseille*/
 {
     
     border: 1px solid red;
-    width: 100%;
-    margin: 10px;
+    width: 400px;
+    margin: 1px;
 }
 
 .parc /*Activités à Marseille*/
 {
     
     border: 1px solid red;
-    width: 100%;
-    margin: 10px;
+    width: 400px;
+    margin: 1px;
 }
 
 footer /*footer*/
