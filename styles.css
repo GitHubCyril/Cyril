@@ -63,6 +63,7 @@ body
 {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    width: 300px;
 }
 
 .cannebiere /*hébergement à Marseille*/
@@ -160,6 +161,7 @@ body
 .activités /*Activités à Marseille*/
 {
     display: flex;
+    flex-wrap: wrap;
    border: 1px solid red;
     
 }
