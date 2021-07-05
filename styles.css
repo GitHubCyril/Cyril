@@ -36,6 +36,7 @@ body
     flex-wrap: wrap;
     width: 930px;
     height: 900px;
+    float: left;
     
 }
 
@@ -142,8 +143,9 @@ body
     background-color: green;
     flex-wrap: wrap;
     border: 5px solid black;
-   
+    flex-direction: column;
     display: inline-flex;
+    
     
 }
 
