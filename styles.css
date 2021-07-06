@@ -22,9 +22,21 @@ body
     padding: 15px;
 }
 
-.filtres /*filtres*/
+form
 {
-    list-style-type: none;
+    display: flex;
+}
+
+.filtres ul 
+{
+     display: flex;
+     list-style-type: none;
+     border: 1px solid blue;
+}
+
+.filtres ul li{
+    margin-left: 20px;
+    border: 1px solid green;
 }
 
 .conteneur_hebergements /*hébergement à Marseille*/
@@ -58,7 +70,7 @@ body
 {
     width: 250px;
     border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .arrondi4 /*Activités à Marseille*/
@@ -77,8 +89,17 @@ body
     background-color: white;
     width: 250px;
     height: 280px;
-    
-    
+}
+
+h4
+{
+    margin: 5px;
+}
+
+.tarif
+{
+    margin: 3px;
+    margin-bottom: 5px;
 }
 
 .port /*hébergement à Marseille*/
@@ -138,12 +159,13 @@ body
     
     padding: 20px;
     margin: 20px;
-    background-color: #F2F2F2;
+    background-color: blue;
     flex-wrap: wrap;
     display: flex;
-    border-radius: 3%;
+    border-radius: 10%;
     flex-direction: column;
     display: inline-flex;
+
     
     
 }
@@ -258,6 +280,11 @@ footer /*footer*/
 a /*general*/
 {
     color: black;
+}
+
+footer a
+{
+     margin: 5px
 }
 
 
