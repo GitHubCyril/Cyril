@@ -46,9 +46,11 @@ form
     display: inline-flex;
     flex-wrap: wrap;
     width: 930px;
-    height: 900px;
+    height: 850px;
     float: left;
     border-radius: 3%;
+    margin: 25px;
+    border: 5px solid green;
     
 }
 
@@ -88,7 +90,7 @@ form
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 280px;
+    height: 245px;
 }
 
 h4
@@ -109,7 +111,7 @@ h4
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 280px;
+    height: 245px;
 }
 
 .mouettes /*hébergement à Marseille*/
@@ -119,7 +121,7 @@ h4
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 280px;
+    height: 245px;
 }
 
 .mer /*hébergement à Marseille*/
@@ -130,7 +132,7 @@ h4
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 280px;
+    height: 245px;
 }
 
 .panier /*hébergement à Marseille*/
@@ -140,7 +142,7 @@ h4
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 280px;
+    height: 245px;
 }
 
 .amina /*hébergement à Marseille*/
@@ -150,7 +152,7 @@ h4
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 280px;
+    height: 245px;
     
 }
 
