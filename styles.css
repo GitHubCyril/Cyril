@@ -17,27 +17,36 @@ body
     list-style-type: none;
 }
 
-#conteneur-recherche /*recherche*/
-{
-    padding: 15px;
-}
-
-form
-{
-    display: flex;
-}
-
-.filtres ul 
+.filtres ul /*header*/
 {
      display: flex;
      list-style-type: none;
      border: 1px solid blue;
 }
 
-.filtres ul li{
+.filtres ul li /*header*/
+{
     margin-left: 20px;
     border: 1px solid green;
 }
+
+#conteneur-recherche /*recherche*/
+{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+form
+{
+    display: flex; /*recherche*/
+}
+
+input
+{
+    height: 50px;
+}
+
+
 
 .conteneur_hebergements /*hébergement à Marseille*/
 {
@@ -46,12 +55,10 @@ form
     display: inline-flex;
     flex-wrap: wrap;
     width: 930px;
-    height: 850px;
+    height: 650px;
     float: left;
     border-radius: 3%;
     margin: 25px;
-    border: 5px solid green;
-    
 }
 
 .arrondi1 /*hébergement à Marseille*/
@@ -91,12 +98,20 @@ form
     background-color: white;
     width: 250px;
     height: 245px;
+}  
+
+.cannebiere:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
+
 
 h4
 {
     margin: 5px;
 }
+
 
 .tarif
 {
@@ -114,6 +129,12 @@ h4
     height: 245px;
 }
 
+.port:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .mouettes /*hébergement à Marseille*/
 {
     margin: 20px;
@@ -122,6 +143,12 @@ h4
     background-color: white;
     width: 250px;
     height: 245px;
+}
+
+.mouettes:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .mer /*hébergement à Marseille*/
@@ -135,6 +162,12 @@ h4
     height: 245px;
 }
 
+.mer:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .panier /*hébergement à Marseille*/
 {
     margin: 20px;
@@ -143,6 +176,12 @@ h4
     background-color: white;
     width: 250px;
     height: 245px;
+}
+
+.panier:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .amina /*hébergement à Marseille*/
@@ -156,6 +195,11 @@ h4
     
 }
 
+.amina:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .populaires /*les populaires*/
 {
     
@@ -286,7 +330,9 @@ a /*general*/
 
 footer a
 {
-     margin: 5px
+    margin: 5px
+    
+   
 }
 
 
