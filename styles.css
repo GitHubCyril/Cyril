@@ -102,20 +102,20 @@ input
     height: 245px;
 }  
 
-.cannebiere:hover
+.cannebiere:hover /*hébergement à Marseille*/
 {
     cursor: pointer;
     transform: scale(1.1);
 }
 
 
-h4
+h4 /*hébergement à Marseille*/
 {
     margin: 5px;
 }
 
 
-.tarif
+.tarif /*hébergement à Marseille*/
 {
     margin: 3px;
     margin-bottom: 5px;
@@ -131,7 +131,7 @@ h4
     height: 245px;
 }
 
-.port:hover
+.port:hover /*hébergement à Marseille*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -147,7 +147,7 @@ h4
     height: 245px;
 }
 
-.mouettes:hover
+.mouettes:hover /*hébergement à Marseille*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -164,7 +164,7 @@ h4
     height: 245px;
 }
 
-.mer:hover
+.mer:hover /*hébergement à Marseille*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -180,7 +180,7 @@ h4
     height: 245px;
 }
 
-.panier:hover
+.panier:hover /*hébergement à Marseille*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -197,7 +197,7 @@ h4
     
 }
 
-.amina:hover
+.amina:hover /*hébergement à Marseille*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -220,10 +220,13 @@ h4
     background-color: white;
     margin: 15px;
     width: 250px;
-    border-top-left-radius: 10%;
+    border-radius: 10%;
+    
 }
 
-.soleil:hover
+
+
+.soleil:hover /*les populaires*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -234,10 +237,11 @@ h4
     background-color: white;
     margin: 15px;
     width: 250px;
-    border-top-left-radius: 10%;
+    border-radius: 10%;
+    
 }
 
-.coeur:hover
+.coeur:hover /*les populaires*/
 {
     cursor: pointer;
     transform: scale(1.1);
@@ -248,10 +252,11 @@ h4
     background-color: white;
     margin: 15px;
     width: 250px;
-    border-top-left-radius: 10%;
+    border-radius: 10%;
+    
 }
 
-.bleu:hover
+.bleu:hover /*les populaires*/
 {
     cursor: pointer;
     transform: scale(1.1);
