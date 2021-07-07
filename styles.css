@@ -77,10 +77,12 @@ input
 
 .arrondi3 /*les populaires*/
 {
-    width: 250px;
+    width: 160px;
     border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
+
+
 
 .arrondi4 /*Activités à Marseille*/
 {
@@ -211,9 +213,6 @@ h4
     border-radius: 10%;
     flex-direction: column;
     display: inline-flex;
-
-    
-    
 }
 
 .soleil /*les populaires*/
@@ -224,6 +223,12 @@ h4
     border-top-left-radius: 10%;
 }
 
+.soleil:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .coeur /*les populaires*/
 {
     background-color: white;
@@ -232,12 +237,24 @@ h4
     border-top-left-radius: 10%;
 }
 
+.coeur:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .bleu /*les populaires*/
 {
     background-color: white;
     margin: 15px;
     width: 250px;
     border-top-left-radius: 10%;
+}
+
+.bleu:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .activités /*Activités à Marseille*/
