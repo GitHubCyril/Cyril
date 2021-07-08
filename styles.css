@@ -8,6 +8,7 @@ body
     flex-wrap: wrap;
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .elements /*header*/
@@ -16,6 +17,9 @@ body
     font-size: 20px;
     list-style-type: none;
 }
+
+
+
 
 .filtres ul /*header*/
 {
