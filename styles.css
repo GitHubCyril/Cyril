@@ -18,8 +18,20 @@ body
     list-style-type: none;
 }
 
+ul li a
+{
+    text-decoration: none;
+}
 
+.conteneur1 ligne
+{
+    border-top: 2px solid #0065FC;
+}
 
+.inscription
+{
+    color: #0065FC;
+}
 
 .filtres ul /*header*/
 {
