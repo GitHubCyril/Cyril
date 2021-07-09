@@ -8,7 +8,6 @@ body
     flex-wrap: wrap;
     display: flex;
     justify-content: flex-end;
-    
 }
 
 .elements /*header*/
@@ -46,11 +45,15 @@ ul li a /*header*/
     border: 1px solid green;
 }
 
+.deplacement
+{
+    margin: 20px;
+}
+
 .conteneur-recherche /*recherche*/
 {
     width: 400px;
     border-radius: 10px;
-    
 }
 
 .position /*recherche*/
@@ -72,7 +75,7 @@ ul li a /*header*/
 
 .casevide /*recherche*/
 {
-    height: 43px;
+    height: 44px;
     width: 200px;
     font-size: 18px;
     color: black;
