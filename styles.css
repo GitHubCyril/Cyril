@@ -46,23 +46,47 @@ ul li a /*header*/
     border: 1px solid green;
 }
 
-#conteneur-recherche /*recherche*/
+.conteneur-recherche /*recherche*/
 {
-    padding: 15px;
-    border: 1px solid black;
+    width: 400px;
+    border-radius: 10px;
+    
 }
 
-form
+.position /*recherche*/
 {
-    display: flex; /*recherche*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-input
+.ConteneurIcone /*recherche*/
 {
+    background-color: grey;
     height: 50px;
+    width: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: -2px;
 }
 
+.casevide /*recherche*/
+{
+    height: 43px;
+    width: 200px;
+    font-size: 18px;
+    color: black;
+}
 
+.couleur /*recherche*/
+{
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
 
 .conteneur_hebergements /*hébergement à Marseille*/
 {
