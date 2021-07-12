@@ -140,6 +140,16 @@ ul li a /*header*/
     
 }
 
+.etoile1
+{
+    color: #0065FC;
+}
+
+.etoile2
+{
+    color: #F2F2F2;
+}
+
 .cannebiere /*hébergement à Marseille*/
 {
     margin: 20px;
