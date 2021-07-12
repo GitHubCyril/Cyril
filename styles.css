@@ -45,11 +45,16 @@ ul li a /*header*/
     border: 1px solid green;
 }
 
+
 .deplacement
 {
     margin: 20px;
 }
 
+.droite
+{
+    display: flex;
+}
 .conteneur-recherche /*recherche*/
 {
     width: 400px;
