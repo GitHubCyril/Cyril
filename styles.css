@@ -32,29 +32,61 @@ ul li a /*header*/
     color: #0065FC;
 }
 
-.filtres ul /*header*/
-{
-     display: flex;
-     list-style-type: none;
-     border: 1px solid blue;
-}
-
-.filtres ul li /*header*/
-{
-    margin-left: 20px;
-    border: 1px solid green;
-}
-
-
-.deplacement
-{
-    margin: 20px;
-}
-
-.droite
+.conteneur /*filtres*/
 {
     display: flex;
+    align-items: center;
 }
+
+.filtres /*filtres*/
+{
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.deplacement /*filtres*/
+{
+    margin-right: 20px;
+}
+
+.centrage /*filtres*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones /*filtres*/
+{
+    color: #0065fc;
+    border: 1px solid grey;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+
+
+.texte /*filtres*/
+{
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0 25px 25px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.rond /*filtres*/
+{
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 48px;
+    height: 48px;
+    columns: #0065fc;
+    background-color:#deebff;
+}
+
 .conteneur-recherche /*recherche*/
 {
     width: 400px;
@@ -140,12 +172,12 @@ ul li a /*header*/
     
 }
 
-.etoile1
+.etoile1 /*general*/
 {
     color: #0065FC;
 }
 
-.etoile2
+.etoile2 /*general*/
 {
     color: #F2F2F2;
 }
