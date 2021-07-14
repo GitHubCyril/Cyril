@@ -135,6 +135,36 @@ ul li a /*header*/
     border-radius: 0 10px 10px 0;
 }
 
+/*info*/
+
+.info2
+{
+display: flex;
+align-items: center;
+margin: 30px;
+}
+
+.texteinfo
+{
+    margin-left: 15px;
+}
+
+.cercle2
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #deebff;
+    color: #0065fc;
+}
+
+.couleur2
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .conteneur_hebergements /*hébergement à Marseille*/
 {
     padding: 20px;
