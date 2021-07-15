@@ -334,12 +334,12 @@ h4 /*hébergement à Marseille*/
     
     padding: 20px;
     margin: 20px;
-    background-color: blue;
+    background-color:#F2F2F2;
     flex-wrap: wrap;
     display: flex;
     border-radius: 10%;
     flex-direction: column;
-    display: inline-flex;
+    
 }
 
 .soleil /*les populaires*/
@@ -348,6 +348,11 @@ h4 /*hébergement à Marseille*/
     margin: 15px;
     width: 250px;
     border-radius: 10%;
+    
+}
+
+.textepoulaire
+{
     
 }
 
