@@ -1,4 +1,4 @@
-body
+body /*general*/
 {
     font-family: 'Raleway', sans-serif;
 }
@@ -331,14 +331,14 @@ h4 /*hébergement à Marseille*/
 }
 .populaires /*les populaires*/
 {
-    
+    height: 650px;
     padding: 20px;
     margin: 20px;
     background-color:#F2F2F2;
     flex-wrap: wrap;
     display: flex;
-    border-radius: 10%;
-    flex-direction: column;
+    border-radius: 20px;
+    
     
 }
 
@@ -346,14 +346,14 @@ h4 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 250px;
+    width: 400px;
     border-radius: 10%;
-    
 }
 
-.textepoulaire
+.textepoulaire /*les populaires*/
 {
-    
+   float: right;
+   
 }
 
 
@@ -368,7 +368,7 @@ h4 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 250px;
+    width: 400px;
     border-radius: 10%;
     
 }
@@ -383,7 +383,7 @@ h4 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 250px;
+    width: 400px;
     border-radius: 10%;
     
 }
