@@ -406,13 +406,23 @@ h3 /*hébergement à Marseille*/
     flex-wrap: wrap;
     background-color: #F2F2F2;
     width: 100%;
+    border: 1px solid black;
+}
+
+.bordure2 /*Activités à Marseille*/
+{
+    margin-left: 55px;
 }
 
 .port2 /*Activités à Marseille*/
 {
     width: 350px;
+    height: 500px;
     margin: 1px;
-    border: 1px solid red;
+    margin-top: 70px;
+    margin-left: -260px;
+    border: 1px solid black;
+   
 }
 
 .port2:hover /*Activités à Marseille*/
@@ -425,7 +435,7 @@ h3 /*hébergement à Marseille*/
 {
     width: 300px;
     margin: 40px;
-    border: 1px solid red;
+    
 }
 
 .fort:hover /*Activités à Marseille*/
@@ -438,7 +448,7 @@ h3 /*hébergement à Marseille*/
 {
     width: 400;
     margin: 40px;
-    border: 1px solid red;
+    
 }
 
 .iles:hover /*Activités à Marseille*/
@@ -451,7 +461,7 @@ h3 /*hébergement à Marseille*/
 {
     width: 350px;
     margin: 1px;
-    border: 1px solid red;
+    
 }
 
 .paysage:hover /*Activités à Marseille*/
@@ -463,7 +473,7 @@ h3 /*hébergement à Marseille*/
 .eglise /*Activités à Marseille*/
 {
     width: 300px;
-    border: 1px solid red;
+    
 }
 
 .eglise:hover /*Activités à Marseille*/
@@ -475,7 +485,6 @@ h3 /*hébergement à Marseille*/
 .parc /*Activités à Marseille*/
 {
     width: 300px;
-    border: 1px solid red;
 }
 
 .parc:hover /*Activités à Marseille*/
