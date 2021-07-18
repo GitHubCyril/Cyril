@@ -204,6 +204,7 @@ margin: 30px;
     width: 160px;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
+    
 }
 
 .arrondi4 /*Activités à Marseille*/
@@ -344,26 +345,51 @@ h3 /*hébergement à Marseille*/
 }
 .populaires /*les populaires*/
 {
-    height: 650px;
+    height: 736px;
     padding: 20px;
     margin: 20px;
     background-color:#F2F2F2;
     flex-wrap: wrap;
     display: flex;
     border-radius: 20px;
+    width: 400px;
+}
+.titre
+{
+    margin-top: 60px;
+    height: 40px;
+    margin-left: 23px;
+}
+
+.icone1
+{
+    padding-left: 80px;
 }
 
 .soleil /*les populaires*/
 {
     background-color: white;
     margin: 15px;
-    width: 400px;
+    width: 330px;
+    height: 112px;
     border-radius: 10%;
+    padding-top: 7px;
+    padding-left: 4px;
+    margin-top: -50px;
+    
+}
+
+.matin
+{
+    margin-top: -6px;
+    margin-left: -10px;
+    
 }
 
 .textepoulaire /*les populaires*/
 {
    float: right;
+
 }
 
 .soleil:hover /*les populaires*/
@@ -376,8 +402,11 @@ h3 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 400px;
+    width: 330px;
+    height: 112px;
     border-radius: 10%;
+    padding-top: 4px;
+    padding-left: 4px;
 }
 
 .coeur:hover /*les populaires*/
@@ -390,8 +419,11 @@ h3 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 400px;
+    width: 330px;
+    height: 135px;
     border-radius: 10%;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .bleu:hover /*les populaires*/
