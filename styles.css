@@ -202,6 +202,8 @@ margin: 30px;
 .arrondi3 /*les populaires*/
 {
     width: 160px;
+    height: 120px;
+    object-fit: cover;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     
@@ -363,14 +365,14 @@ h3 /*hébergement à Marseille*/
 
 .icone1
 {
-    padding-left: 80px;
+    padding-left: 90px;
 }
 
 .soleil /*les populaires*/
 {
     background-color: white;
     margin: 15px;
-    width: 330px;
+    width: 350px;
     height: 112px;
     border-radius: 10%;
     padding-top: 7px;
@@ -379,17 +381,11 @@ h3 /*hébergement à Marseille*/
     
 }
 
-.matin
-{
-    margin-top: -6px;
-    margin-left: -10px;
-    
-}
-
 .textepoulaire /*les populaires*/
 {
    float: right;
-
+   margin-top: -25px;
+   border: 1px solid black;
 }
 
 .soleil:hover /*les populaires*/
@@ -402,8 +398,8 @@ h3 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 330px;
-    height: 112px;
+    width: 350px;
+    height: 128px;
     border-radius: 10%;
     padding-top: 4px;
     padding-left: 4px;
@@ -419,7 +415,7 @@ h3 /*hébergement à Marseille*/
 {
     background-color: white;
     margin: 15px;
-    width: 330px;
+    width: 350px;
     height: 135px;
     border-radius: 10%;
     padding-top: 10px;
