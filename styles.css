@@ -374,20 +374,32 @@ h3 /*hébergement à Marseille*/
     background-color: white;
     margin: 15px;
     width: 350px;
-    height: 112px;
+    height: 125px;
     border-radius: 10%;
     padding-top: 7px;
     padding-left: 4px;
     margin-top: -50px;
-    
+   
 }
 
 .textepoulaire /*les populaires*/
 {
-   float: right;
-   margin-top: -25px;
+    float: right;
+    height: 100%;
+    
    
    border: 1px solid black;
+}
+
+.textepoulaire p
+{
+margin-top: 0px;
+}
+
+.textepoulaire h4
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
 }
 
 .soleil:hover /*les populaires*/
