@@ -214,6 +214,7 @@ margin: 30px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     width: 300px;
+    object-fit: cover;
 }
 
 .etoile1 /*general*/
@@ -385,6 +386,7 @@ h3 /*hébergement à Marseille*/
 {
    float: right;
    margin-top: -25px;
+   
    border: 1px solid black;
 }
 
@@ -434,23 +436,21 @@ h3 /*hébergement à Marseille*/
     flex-wrap: wrap;
     background-color: #F2F2F2;
     width: 100%;
-    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
 }
 
 .bordure2 /*Activités à Marseille*/
 {
-    margin-left: 55px;
+    margin-left: -50px;
 }
 
 .port2 /*Activités à Marseille*/
 {
     width: 350px;
-    height: 500px;
+    
     margin: 1px;
-    margin-top: 70px;
     margin-left: -260px;
-    border: 1px solid black;
-   
 }
 
 .port2:hover /*Activités à Marseille*/
@@ -458,6 +458,8 @@ h3 /*hébergement à Marseille*/
     cursor: pointer;
     transform: scale(1.1);
 }
+
+
 
 .fort /*Activités à Marseille*/
 {
