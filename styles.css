@@ -176,6 +176,7 @@ margin: 30px;
 {
     align-items: center;
     display: flex;
+    align-content: space-around;
 }
 
 .conteneur_hebergements /*hébergement à Marseille*/
@@ -362,7 +363,7 @@ h3 /*hébergement à Marseille*/
 }
 .populaires /*les populaires*/
 {
-    height: 650px;
+    height: 708px;
     padding: 20px;
     margin: 20px;
     background-color:#F2F2F2;
@@ -373,7 +374,7 @@ h3 /*hébergement à Marseille*/
 }
 .titre
 {
-    margin-top: 60px;
+    margin-top: 30px;
     height: 40px;
     margin-left: 23px;
 }
