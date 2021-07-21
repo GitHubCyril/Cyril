@@ -172,6 +172,12 @@ margin: 30px;
     display: flex;
 }
 
+.Alignement
+{
+    align-items: center;
+    display: flex;
+}
+
 .conteneur_hebergements /*hébergement à Marseille*/
 {
     padding: 20px;
