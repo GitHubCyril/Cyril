@@ -66,6 +66,11 @@ ul li a /*header*/
     margin-right: 15px;
 }
 
+.Decoration
+{
+    text-decoration: none;
+}
+
 .icones:hover
 {
     cursor: pointer;
@@ -351,7 +356,7 @@ h3 /*hébergement à Marseille*/
 }
 .populaires /*les populaires*/
 {
-    height: 736px;
+    height: 650px;
     padding: 20px;
     margin: 20px;
     background-color:#F2F2F2;
@@ -574,12 +579,7 @@ a /*general*/
     color: black;
 }
 
-footer a
-{
-    margin: 5px
-    
-   
-}
+
 
 
 
