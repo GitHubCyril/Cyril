@@ -215,6 +215,8 @@ margin: 30px;
     width: 250px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
+    
+    
 }
 
 .arrondi3 /*les populaires*/
@@ -232,14 +234,14 @@ margin: 30px;
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     width: 300px;
+    height: 422px;
     object-fit: cover;
 }
 
 .etoile1 /*general*/
 {
     color: #0065FC;
-    margin-top: -10px;
-    margin-left: 10px;
+    
 }
 
 .etoile2 /*general*/
@@ -251,12 +253,11 @@ margin: 30px;
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
     width: 250px;
-    height: 245px;
+    height: 270px;
     margin-left: -287px;
-    
 }  
 
 .cannebiere:hover /*hébergement à Marseille*/
@@ -287,7 +288,7 @@ h3 /*hébergement à Marseille*/
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 245px;
+    height: 270px;
 }
 
 .port:hover /*hébergement à Marseille*/
@@ -303,7 +304,7 @@ h3 /*hébergement à Marseille*/
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 245px;
+    height: 270px;
 }
 
 .mouettes:hover /*hébergement à Marseille*/
@@ -319,7 +320,7 @@ h3 /*hébergement à Marseille*/
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 245px;
+    height: 270px;
 }
 
 .mer:hover /*hébergement à Marseille*/
@@ -335,7 +336,7 @@ h3 /*hébergement à Marseille*/
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 245px;
+    height: 270px;
 }
 
 .panier:hover /*hébergement à Marseille*/
@@ -351,7 +352,7 @@ h3 /*hébergement à Marseille*/
     border-radius: 10px;
     background-color: white;
     width: 250px;
-    height: 245px;
+    height: 270px;
 }
 
 .amina:hover /*hébergement à Marseille*/
@@ -368,7 +369,7 @@ h3 /*hébergement à Marseille*/
 {
     height: 708px;
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
     background-color:#F2F2F2;
     flex-wrap: wrap;
     display: flex;
@@ -409,6 +410,7 @@ h3 /*hébergement à Marseille*/
 .textepoulaire /*les populaires*/
 {
     margin-left: 20px;
+    
 }
 
 .textepoulaire p /*les populaires*/
@@ -482,7 +484,6 @@ margin-top: 0px;
 .port2 /*Activités à Marseille*/
 {
     width: 350px;
-    
     margin: 1px;
     margin-left: -260px;
 }
