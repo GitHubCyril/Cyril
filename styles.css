@@ -411,15 +411,21 @@ h3 /*hébergement à Marseille*/
     margin-left: 20px;
 }
 
-.textepoulaire p
+.textepoulaire p /*les populaires*/
 {
 margin-top: 0px;
 }
 
-.textepoulaire h4
+.textepoulaire h4 /*les populaires*/
 {
  margin-top: 0px;
  margin-bottom: 0px;
+}
+
+.etoile1
+{
+    margin-top: 30px;
+    margin-left: 0%;
 }
 
 .coeur /*les populaires*/
