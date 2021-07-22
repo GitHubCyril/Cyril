@@ -22,6 +22,11 @@ ul li a /*header*/
     text-decoration: none;
 }
 
+.deplacement
+{
+    margin-left: 35px;
+}
+
 .conteneur1 ligne /*header*/
 {
     border-top: 2px solid #0065FC;
@@ -101,7 +106,7 @@ ul li a /*header*/
 {
     width: 400px;
     border-radius: 10px;
-    margin-left: 22px;
+    margin-left: 12px;
 }
 
 .position /*recherche*/
@@ -138,8 +143,6 @@ ul li a /*header*/
     cursor: pointer;
     border-radius: 0 10px 10px 0;
 }
-
-
 
 .info2 /*info*/
 {
@@ -394,16 +397,18 @@ h3 /*hébergement à Marseille*/
     padding-top: 7px;
     padding-left: 4px;
     margin-top: -50px;
-   
+    display: flex;
+}
+
+.soleil:hover /*les populaires*/
+{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .textepoulaire /*les populaires*/
 {
-    float: right;
-    height: 100%;
-    
-   
-   border: 1px solid black;
+    margin-left: 20px;
 }
 
 .textepoulaire p
@@ -417,12 +422,6 @@ margin-top: 0px;
  margin-bottom: 0px;
 }
 
-.soleil:hover /*les populaires*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
 .coeur /*les populaires*/
 {
     background-color: white;
@@ -432,6 +431,7 @@ margin-top: 0px;
     border-radius: 10%;
     padding-top: 4px;
     padding-left: 4px;
+    display: flex;
 }
 
 .coeur:hover /*les populaires*/
@@ -449,6 +449,7 @@ margin-top: 0px;
     border-radius: 10%;
     padding-top: 10px;
     padding-left: 10px;
+    display: flex;
 }
 
 .bleu:hover /*les populaires*/
@@ -486,13 +487,10 @@ margin-top: 0px;
     transform: scale(1.1);
 }
 
-
-
 .fort /*Activités à Marseille*/
 {
     width: 300px;
     margin: 40px;
-    
 }
 
 .fort:hover /*Activités à Marseille*/
