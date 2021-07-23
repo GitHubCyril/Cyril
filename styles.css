@@ -477,100 +477,36 @@ margin-top: 0px;
 
 .activités /*Activités à Marseille*/
 {
+    
+    width: 100%;
+    
+    justify-content: space-around;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    
     border: 1px solid red;
 }
 
-.bordure2 /*Activités à Marseille*/
+.direction
 {
-    margin-left: -50px;
-}
-
-.port2 /*Activités à Marseille*/
-{
-    width: auto;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 10% 10% 5% 5%;
+   background-color: white;
+   border: 1px solid #F2F2F2;
    
-    margin-left: -260px;
-    border: 1px solid black;
-}
-
-.port2:hover /*Activités à Marseille*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.fort /*Activités à Marseille*/
-{
-    width: auto;
-    
-   
-    border: 1px solid black;
-}
-
-.fort:hover /*Activités à Marseille*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.iles /*Activités à Marseille*/
-{
-    width: auto;
-    
-    margin-right: -15px;
-    border: 1px solid black;
     
 }
 
-.iles:hover /*Activités à Marseille*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
 
-.paysage /*Activités à Marseille*/
-{
-    width: auto;
-    margin: 1px;
-    border: 1px solid black;
-    
-}
 
-.paysage:hover /*Activités à Marseille*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
 
-.eglise /*Activités à Marseille*/
-{
-    width: auto;
-    border: 1px solid black;
-    
-}
 
-.eglise:hover /*Activités à Marseille*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
 
-.parc /*Activités à Marseille*/
-{
-    width: auto;
-    border: 1px solid black;
-}
 
-.parc:hover /*Activités à Marseille*/
-{
-    cursor: pointer;
-    transform: scale(1.1);
-}
+
+
+
 
 footer /*footer*/
 {
