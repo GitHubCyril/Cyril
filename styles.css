@@ -460,19 +460,21 @@ margin-top: 0px;
 .activités /*Activités à Marseille*/
 {
     width: 100%;
-    border: 1px solid red;
     background-color: #F2F2F2;
 }
 
 .bloc1
 {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .bloc2 /*Activités à Marseille*/
 {
+   
    width: 330px;
+   margin: 20px;
    border-radius: 5% 5% 0 0;
    background-color: white;
    border: 1px solid #F2F2F2;
@@ -481,6 +483,8 @@ margin-top: 0px;
 .bloc3
 {
     flex-direction: column;
+    margin: 20px;
+    
 }
 
 .arrondi4 /*Activités à Marseille*/
