@@ -181,7 +181,6 @@ margin: 30px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-around;
-    border: 1px solid blueviolet;
 }
 
 .conteneur_hebergements /*hébergement à Marseille*/
@@ -207,11 +206,13 @@ margin: 30px;
 .etoile1 /*general*/
 {
     color: #0065FC;
+    padding-left: 10px;
 }
 
 .etoile2 /*general*/
 {
     color: #F2F2F2;
+    
 }
 
 .arrondi1 /*hébergement à Marseille*/
@@ -458,7 +459,12 @@ margin-top: 0px;
 {
     width: 100%;
     background-color: #F2F2F2;
-    border: 1px solid red;
+}
+
+.titreactivités
+{
+    margin: 60px;
+    margin-top: 30px;
 }
 
 .bloc1
