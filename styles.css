@@ -179,7 +179,9 @@ margin: 30px;
 {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     align-content: space-around;
+    border: 1px solid blueviolet;
 }
 
 .conteneur_hebergements /*hébergement à Marseille*/
@@ -190,7 +192,6 @@ margin: 30px;
     flex-wrap: wrap;
     width: 930px;
     height: 650px;
-    float: left;
     border-radius: 3%;
     margin: 25px;
     margin-top: 30px;
@@ -203,36 +204,9 @@ margin: 30px;
     margin-left: 25px;
 }
 
-.arrondi1 /*hébergement à Marseille*/
-{
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    width: 250px;
-}
-
-.arrondi2 /*Hébergements à Marseille*/
-{
-    width: 250px;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-    
-    
-}
-
-.arrondi3 /*les populaires*/
-{
-    width: 160px;
-    height: 120px;
-    object-fit: cover;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    
-}
-
 .etoile1 /*general*/
 {
     color: #0065FC;
-    
 }
 
 .etoile2 /*general*/
@@ -240,11 +214,23 @@ margin: 30px;
     color: #F2F2F2;
 }
 
+.arrondi1 /*hébergement à Marseille*/
+{
+    border-radius: 5% 5% 0 0;
+    width: 250px;
+}
+
+.arrondi2 /*Hébergements à Marseille*/
+{
+    width: 250px;
+    border-radius: 5% 5% 0 0;
+}
+
 .cannebiere /*hébergement à Marseille*/
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 5% 5% 5% 5%;
     background-color: white;
     width: 250px;
     height: 270px;
@@ -276,7 +262,7 @@ h3 /*hébergement à Marseille*/
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5% 5% 5% 5%;
     background-color: white;
     width: 250px;
     height: 270px;
@@ -292,7 +278,7 @@ h3 /*hébergement à Marseille*/
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5% 5% 5% 5%;
     background-color: white;
     width: 250px;
     height: 270px;
@@ -308,7 +294,7 @@ h3 /*hébergement à Marseille*/
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5% 5% 5% 5%;
     background-color: white;
     width: 250px;
     height: 270px;
@@ -324,7 +310,7 @@ h3 /*hébergement à Marseille*/
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5% 5% 5% 5%;
     background-color: white;
     width: 250px;
     height: 270px;
@@ -340,7 +326,7 @@ h3 /*hébergement à Marseille*/
 {
     margin: 20px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5% 5% 5% 5%;
     background-color: white;
     width: 250px;
     height: 270px;
@@ -367,14 +353,22 @@ h3 /*hébergement à Marseille*/
     border-radius: 20px;
     width: 400px;
 }
-.titre
+
+.arrondi3 /*les populaires*/
+{
+    width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5% 0 0 5%;
+}
+.titre /*les populaires*/
 {
     margin-top: 30px;
     height: 40px;
     margin-left: 23px;
 }
 
-.icone1
+.icone1 /*les populaires*/
 {
     padding-left: 90px;
 }
@@ -385,9 +379,10 @@ h3 /*hébergement à Marseille*/
     margin: 15px;
     width: 350px;
     height: 125px;
-    border-radius: 10%;
+    border-radius: 5% 5% 5% 5%;
     padding-top: 7px;
-    padding-left: 4px;
+    padding-left: 7px;
+    padding-bottom: 3px;
     margin-top: -50px;
     display: flex;
 }
@@ -426,10 +421,11 @@ margin-top: 0px;
     background-color: white;
     margin: 15px;
     width: 350px;
-    height: 128px;
-    border-radius: 10%;
-    padding-top: 4px;
-    padding-left: 4px;
+    height: 125px;
+    border-radius: 5% 5% 5% 5%;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 3px;
     display: flex;
 }
 
@@ -444,10 +440,11 @@ margin-top: 0px;
     background-color: white;
     margin: 15px;
     width: 350px;
-    height: 135px;
-    border-radius: 10%;
-    padding-top: 10px;
-    padding-left: 10px;
+    height: 125px;
+    border-radius: 5% 5% 5% 5%;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 3px;
     display: flex;
 }
 
@@ -461,6 +458,7 @@ margin-top: 0px;
 {
     width: 100%;
     background-color: #F2F2F2;
+    border: 1px solid red;
 }
 
 .bloc1
@@ -502,16 +500,6 @@ margin-top: 0px;
     height: 180px;
     object-fit: cover;
 }
-
-
-
-
-
-
-
-
-
-
 
 footer /*footer*/
 {
