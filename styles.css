@@ -175,7 +175,7 @@ margin: 30px;
     display: flex;
 }
 
-.Alignement
+.Alignement /*hébergement à Marseille*/
 {
     align-items: center;
     display: flex;
@@ -189,12 +189,13 @@ margin: 30px;
     background-color: #F2F2F2;
     display: inline-flex;
     flex-wrap: wrap;
-    width: 930px;
-    height: 650px;
-    border-radius: 3%;
+    width: 60%;
+    height: 60%;
+    border-radius: 3% 3% 3% 3%;
     margin: 25px;
     margin-top: 30px;
     padding-top: 80px;
+    
 }
 
 .hebergements
@@ -230,6 +231,7 @@ margin: 30px;
 .cannebiere /*hébergement à Marseille*/
 {
     margin: 20px;
+    margin-left: 3%;
     padding: 5px;
     border-radius: 5% 5% 5% 5%;
     background-color: white;
@@ -294,6 +296,7 @@ h3 /*hébergement à Marseille*/
 .mer /*hébergement à Marseille*/
 {
     margin: 20px;
+    margin-left: 3%;
     padding: 5px;
     border-radius: 5% 5% 5% 5%;
     background-color: white;
@@ -345,13 +348,13 @@ h3 /*hébergement à Marseille*/
 }
 .populaires /*les populaires*/
 {
-    height: 708px;
+    height: 735px;
     padding: 20px;
     margin: 10px;
     background-color:#F2F2F2;
     flex-wrap: wrap;
     display: flex;
-    border-radius: 20px;
+    border-radius: 3% 3% 3% 3%;
     width: 400px;
 }
 
@@ -458,20 +461,23 @@ margin-top: 0px;
 .activités /*Activités à Marseille*/
 {
     width: 100%;
+    height: 50%;
     background-color: #F2F2F2;
+    
 }
 
-.titreactivités
+.titreactivités /*Activités à Marseille*/
 {
     margin: 60px;
     margin-top: 30px;
 }
 
-.bloc1
+.bloc1 /*Activités à Marseille*/
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .bloc2 /*Activités à Marseille*/
