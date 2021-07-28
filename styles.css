@@ -204,7 +204,7 @@ margin: 30px;
     
 }
 
-.hebergements
+#hebergements
 {
     margin-top: -40px;
     margin-left: 25px;
@@ -409,13 +409,13 @@ margin-top: 0px;
     display: flex;
 }
 
-.activités /*Activités à Marseille*/
+.blocactivités /*Activités à Marseille*/
 {
     width: 97%;
     height: 30%;
 }
 
-.titreactivités /*Activités à Marseille*/
+#activites /*Activités à Marseille*/
 {
    font-size: 1.7em; 
    margin-left: 4%;
