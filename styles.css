@@ -507,6 +507,12 @@ footer div p /*footer*/
     margin-top: -1%;
 }
 
+footer div p:hover /*footer*/
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 .footer2 /*footer*/
 {
