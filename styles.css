@@ -9,6 +9,11 @@ body /*general*/
     transform: scale(1.1);
 }
 
+a /*general*/
+{
+    color: black;
+}
+
 .conteneur1 /*header*/
 {
     flex-wrap: wrap;
@@ -479,35 +484,47 @@ footer /*footer*/
     flex-wrap: wrap;
     align-items: baseline;
     background-color: #F2F2F2;
-    height: 230px;
+    height: 8%;
 }
 
 .footer1 /*footer*/
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 50px;
-    margin: 50px
+    margin-left: 5%;
+    margin-top: 40px
 }
+
+footer div h3 /*footer*/
+{
+    font-size: 1.3em;
+    margin-left: -1%;
+}
+
+footer div p /*footer*/
+{
+    margin-top: -1%;
+}
+
 
 .footer2 /*footer*/
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 17%;
 }
 
 .footer3 /*footer*/
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 17%;
 }
 
-a /*general*/
-{
-    color: black;
-}
+
 
 
 
