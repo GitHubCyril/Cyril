@@ -31,7 +31,6 @@ a /*general*/
 ul li a /*header*/
 {
     text-decoration: none;
-    
 }
 
 header ul li a:hover
@@ -154,7 +153,7 @@ header ul li a:hover
 
 .couleur /*recherche*/
 {
-    background-color: blue;
+    background-color: #0065FC;
     height: 50px;
     width: 100px;
     color: white;
@@ -164,9 +163,10 @@ header ul li a:hover
 
 .info2 /*info*/
 {
-display: flex;
-align-items: center;
-margin: 30px;
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-left: 3%;
 }
 
 .texteinfo /*info*/
@@ -176,10 +176,11 @@ margin: 30px;
 
 .cercle2 /*info*/
 {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #deebff;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    background-color: white;
     color: #0065fc;
     display:flex;
     justify-content: center;
@@ -191,6 +192,7 @@ margin: 30px;
     justify-content: center;
     align-items: center;
     display: flex;
+    
 }
 
 .Alignement /*hébergement à Marseille*/
@@ -231,7 +233,6 @@ margin: 30px;
 .etoile2 /*general*/
 {
     color: #F2F2F2;
-    
 }
 
 .arrondi1 /*hébergement à Marseille*/
@@ -327,6 +328,7 @@ h3 /*hébergement à Marseille*/
 {
     margin-left: 25px;
 }
+
 .populaires /*les populaires*/
 {
     height: 735px;
@@ -375,18 +377,17 @@ h3 /*hébergement à Marseille*/
 .textepoulaire /*les populaires*/
 {
     margin-left: 20px;
-    
 }
 
 .textepoulaire p /*les populaires*/
 {
-margin-top: 0px;
+    margin-top: 0px;
 }
 
 .textepoulaire h4 /*les populaires*/
 {
- margin-top: 0px;
- margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .etoile1
@@ -439,7 +440,6 @@ margin-top: 0px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .bloc2 /*Activités à Marseille*/
@@ -460,7 +460,6 @@ margin-top: 0px;
     background-color: white;
     margin: 25px;
     border: 2px solid #F2F2F2;
-    
 }
 
 
