@@ -39,9 +39,9 @@ header ul li a:hover /*header*/
     padding-top: 40px;
 }
 
-.deplacement /*header*/
+.deplacement /*Titre*/
 {
-    margin-left: 35px;
+    margin-left: 3%;
 }
 
 .conteneur1 ligne /*header*/
@@ -64,7 +64,7 @@ header ul li a:hover /*header*/
 .filtres /*filtres*/
 {
     margin-left: 3%;
-    margin-top: 45px;
+    margin-top: 30px;
     margin-bottom: 35px;
 }
 
@@ -124,7 +124,6 @@ header ul li a:hover /*header*/
 {
     width: 400px;
     border-radius: 10px;
-    margin-left: 12px;
     margin-left: 2%;
 }
 
@@ -167,7 +166,6 @@ header ul li a:hover /*header*/
 {
     display: flex;
     align-items: center;
-    margin: 30px;
     margin-left: 3%;
 }
 
@@ -223,6 +221,7 @@ header ul li a:hover /*header*/
 {
     margin-top: -40px;
     margin-left: 25px;
+    font-size: 1.5em; 
 }
 
 .etoile1 /*general*/
@@ -325,7 +324,7 @@ h3 /*hébergement à Marseille*/
     height: 270px;
 }
 
-.bordure
+.bordure /*hébergement à Marseille*/
 {
     margin-left: 25px;
 }
@@ -351,9 +350,10 @@ h3 /*hébergement à Marseille*/
 }
 .titre /*les populaires*/
 {
-    margin-top: 30px;
+    margin-top: 25px;
     height: 40px;
     margin-left: 23px;
+    font-size: 1.5em; 
 }
 
 .icone1 /*les populaires*/
@@ -391,7 +391,7 @@ h3 /*hébergement à Marseille*/
     margin-bottom: 0px;
 }
 
-.etoile1
+.etoile1 /*les populaires*/
 {
     margin-top: 30px;
     margin-left: 0%;
@@ -431,7 +431,7 @@ h3 /*hébergement à Marseille*/
 
 #activites /*Activités à Marseille*/
 {
-   font-size: 1.7em; 
+   font-size: 1.5em; 
    margin-left: 4%;
 }
 
