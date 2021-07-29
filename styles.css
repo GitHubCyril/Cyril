@@ -33,13 +33,13 @@ ul li a /*header*/
     text-decoration: none;
 }
 
-header ul li a:hover
+header ul li a:hover /*header*/
 {
     border-top:2px solid #0065FC;
     padding-top: 40px;
 }
 
-.deplacement
+.deplacement /*header*/
 {
     margin-left: 35px;
 }
@@ -57,12 +57,13 @@ header ul li a:hover
 .conteneur /*filtres*/
 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .filtres /*filtres*/
 {
-    margin-left: 40px;
+    margin-left: 3%;
     margin-top: 45px;
     margin-bottom: 35px;
 }
@@ -124,6 +125,7 @@ header ul li a:hover
     width: 400px;
     border-radius: 10px;
     margin-left: 12px;
+    margin-left: 2%;
 }
 
 .position /*recherche*/
@@ -192,7 +194,6 @@ header ul li a:hover
     justify-content: center;
     align-items: center;
     display: flex;
-    
 }
 
 .Alignement /*hébergement à Marseille*/
