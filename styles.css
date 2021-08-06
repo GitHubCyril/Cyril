@@ -224,6 +224,30 @@ header ul li a:hover /*header*/
     font-size: 1.5em; 
 }
 
+.cannebiere /*hébergement à Marseille*/
+{
+    margin: 20px;
+    margin-left: 3%;
+    padding: 5px;
+    border-radius: 5% 5% 5% 5%;
+    background-color: white;
+    width: 250px;
+    height: 270px;
+    margin-left: -287px;
+}
+
+.arrondi1 /*hébergement à Marseille*/
+{
+    border-radius: 5% 5% 0 0;
+    width: 250px;
+}
+
+.tarif /*hébergement à Marseille*/
+{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+
 .etoile1 /*general*/
 {
     color: #0065FC;
@@ -235,29 +259,11 @@ header ul li a:hover /*header*/
     color: #F2F2F2;
 }
 
-.arrondi1 /*hébergement à Marseille*/
-{
-    border-radius: 5% 5% 0 0;
-    width: 250px;
-}
-
 .arrondi2 /*Hébergements à Marseille*/
 {
     width: 250px;
     border-radius: 5% 5% 0 0;
 }
-
-.cannebiere /*hébergement à Marseille*/
-{
-    margin: 20px;
-    margin-left: 3%;
-    padding: 5px;
-    border-radius: 5% 5% 5% 5%;
-    background-color: white;
-    width: 250px;
-    height: 270px;
-    margin-left: -287px;
-}  
 
 h3 /*hébergement à Marseille*/
 {
@@ -267,11 +273,6 @@ h3 /*hébergement à Marseille*/
 }
 
 
-.tarif /*hébergement à Marseille*/
-{
-    margin-top: -15px;
-    margin-left: 10px;
-}
 
 .port /*hébergement à Marseille*/
 {
